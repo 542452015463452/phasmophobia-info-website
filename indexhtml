@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Phasmophobia Ghost Guide</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #7a7a7a; /* Nog lichtere achtergrondkleur */
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #1a1a1a;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        nav {
+            background-color: #343;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #ffd;
+            margin: 10px;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffg;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 30px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #335;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        .ghost-image {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Phasmophobia Ghost Guide</h1>
+        <p>A comprehensive guide to the 24 ghost types and their special abilities</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#ghosts">Ghost Types</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Phasmophobia</h2>
+            <p>Phasmophobia is a cooperative horror game where players investigate paranormal activity in haunted locations. Ghosts are the primary entities players encounter during investigations.</p>
+        </section>
+
+        <section id="ghosts">
+            <h2>Ghost Types and Special Abilities</h2>
+             <!-- Informatie voor Spirit -->
+            <p id="spirit" class="ghost-info">
+                <strong>Spirit:</strong> The Spirit is a common ghost type. It has no special ability, making it a straightforward but potentially dangerous encounter. Spirits can manifest and interact with the environment, making them visible to the naked eye. They are known for their significant impact on a player's sanity and their ability to initiate ghostly activities, such as turning lights on and off or making chilling sounds.
+            </p>
+
+            <!-- Informatie voor Wraith -->
+            <p id="wraith" class="ghost-info">
+                <strong>Wraith:</strong> The Wraith is known for its ability to fly and pass through walls. It can be challenging to detect using standard ghost hunting equipment. However, it is vulnerable to the Smudge Sticks, which can temporarily prevent it from wandering. Wraiths tend to have a toxic effect on the sanity of those nearby and can initiate paranormal activities such as creating cold spots and moving objects.
+            </p>
+
+            <!-- Informatie voor Phantom -->
+            <p id="phantom" class="ghost-info">
+                <strong>Phantom:</strong> Phantoms are ghosts that have the unique ability to become invisible. They can disappear from view, making them difficult to identify with the naked eye. However, taking a photo of a Phantom will make it temporarily disappear and reveal its true form. Phantoms can lower a player's sanity significantly and are known for inducing fear through their presence, causing players to panic and hide.
+            </p>
+
+            <!-- Informatie voor Poltergeist -->
+            <p id="poltergeist" class="ghost-info">
+                <strong>Poltergeist:</strong> The Poltergeist is a mischievous ghost known for its ability to manipulate physical objects and create chaos in its surroundings. It can throw objects and cause disruptions, making it easily detectable during investigations. While Poltergeists don't have a significant impact on sanity, their ability to move objects can be unsettling for investigators.
+            </p>
+
+            <!-- Informatie voor Banshee -->
+            <p id="banshee" class="ghost-info">
+                <strong>Banshee:</strong> The Banshee is a vengeful ghost that is drawn to individuals with low sanity. It has the ability to emit a chilling scream that can terrify those who hear it. Banshees are known for their speed and aggression, making them a formidable threat to investigators. Their presence can cause sanity to drop rapidly, leading to increased fear and vulnerability.
+            </p>
+
+            <!-- Informatie voor Jinn -->
+            <p id="jinn" class="ghost-info">
+                <strong>Jinn:</strong> The Jinn is an aggressive ghost that becomes more powerful in areas with higher temperatures. It can quickly move objects and is known for its ability to engage in hunting mode more often. Using a thermometer to identify temperature fluctuations is crucial when dealing with Jinn. They can cause electrical disturbances and make the environment extremely cold during hunts.
+            </p>
+
+            <!-- Informatie voor Mare -->
+            <p id="mare" class="ghost-info">
+                <strong>Mare:</strong> The Mare is a ghost that becomes more powerful in the dark. It has the ability to manipulate light sources, causing lights to flicker or go out. Investigating in well-lit areas can help keep the Mare's powers at bay. However, in the dark, Mare can be exceptionally dangerous, with a higher likelihood of initiating a hunt and causing fear among investigators.
+            </p>
+
+            <!-- Informatie voor Revenant -->
+            <p id="revenant" class="ghost-info">
+                <strong>Revenant:</strong> The Revenant is an aggressive and slow-moving ghost. It becomes extremely fast when it's hunting a player. Revenants are known for their strength and ability to chase down investigators. Hiding from a Revenant is challenging, and it's crucial to maintain distance to avoid being caught. They can drain sanity quickly and initiate hunts frequently.
+            </p>
+
+            <!-- Informatie voor Shade -->
+            <p id="shade" class="ghost-info">
+                <strong>Shade:</strong> The Shade is a shy and elusive ghost. It tends to be less active when there are multiple investigators present. Identifying a Shade requires teamwork, as it's known for being difficult to detect alone. It can become aggressive when provoked, so investigators should be cautious when attempting to make contact. Shy and less active, they can be challenging to pinpoint.
+            </p>
+
+            <!-- Informatie voor Demon -->
+            <p id="demon" class="ghost-info">
+                <strong>Demon:</strong> The Demon is an aggressive and malevolent ghost. It's known for its strength and ability to initiate hunts frequently. Demons can target anyone and everyone, making them highly dangerous. Their presence can cause panic and fear among investigators, leading to a rapid decline in sanity. Identifying a Demon is crucial for survival during an investigation.
+            </p>
+
+            <!-- Informatie voor Yurei -->
+            <p id="yurei" class="ghost-info">
+                <strong>Yurei:</strong> The Yurei is a vengeful and restless spirit. It has a strong connection to the living world and can manipulate electronic devices. Yureis can drain sanity by their mere presence and are known for initiating hunts frequently. Their ability to cut off communication and use electronics as a means of interaction makes them challenging to deal with during investigations.
+            </p>
+
+            <!-- Informatie voor Oni -->
+            <p id="oni" class="ghost-info">
+                <strong>Oni:</strong> The Oni is a formidable and aggressive demon that becomes more active when people are nearby. It's known for its strength and ability to move objects swiftly. Onis can become very aggressive and initiate hunts quickly. Identifying an Oni is essential for investigator safety, as their aggression can lead to dangerous encounters and a significant loss of sanity.
+            </p>
+
+            <!-- Informatie voor Yokai -->
+            <p id="yokai" class="ghost-info">
+                <strong>Yokai:</strong> The Yokai is a mischievous ghost that can only be heard using a parabolic microphone. It tends to make noise and can reveal its presence through audio clues. While Yokais are not particularly aggressive, they can lower sanity by causing fear through their eerie sounds. Identifying a Yokai relies on using the right equipment and audio cues.
+            </p>
+
+            <!-- Informatie voor Hantu -->
+            <p id="hantu" class="ghost-info">
+                <strong>Hantu:</strong> The Hantu is a ghost that thrives in cold environments. It can drop the temperature significantly and is known for its ability to move faster in low temperatures. Investigating in cold areas is crucial when dealing with Hantu. Their chilling presence can lead to increased fear and a higher likelihood of initiating hunts.
+            </p>
+
+            <!-- Informatie voor Goryo -->
+            <p id="goryo" class="ghost-info">
+                <strong>Goryo:</strong> The Goryo is a protective and territorial ghost. It can cause fear in those who enter its territory but remains calm when undisturbed. Identifying a Goryo requires understanding its protective nature and avoiding aggressive actions. While it can initiate hunts, it's more likely to do so when investigators disrupt its space.
+            </p>
+
+            <!-- Informatie voor Myling -->
+            <p id="myling" class="ghost-info">
+                <strong>Myling:</strong> The Myling is a vengeful and dangerous ghost that harbors deep anger. It's known for producing eerie and unsettling sounds that can be heard by those nearby. Mylings are aggressive and can initiate hunts frequently. Identifying a Myling is crucial due to their aggressive nature and the fear they can induce through their presence.
+            </p>
+
+            <!-- Informatie voor Onryo -->
+            <p id="onryo" class="ghost-info">
+                <strong>Onryo:</strong> The Onryo is a vengeful spirit with a strong connection to specific objects. It can attach itself to an object and become aggressive when the object is disturbed. Onryos are known for their ability to move objects and their intense focus on specific individuals. Investigating objects with potential connections to an Onryo is vital.
+            </p>
+
+            <!-- Informatie voor The Twins -->
+            <p id="the-twins" class="ghost-info">
+                <strong>The Twins:</strong> The Twins are the spirits of two siblings who share a close bond. They are usually found together and can work together to intimidate investigators. Identifying and dealing with The Twins requires understanding their unique relationship and strategies. Their presence can lead to rapid sanity loss and a higher likelihood of paranormal activity.
+            </p>
+
+            <!-- Informatie voor Raiju -->
+            <p id="raiju" class="ghost-info">
+                <strong>Raiju:</strong> The Raiju is an electrical spirit that can manipulate electronic devices and lights. It is known for its ability to disrupt communication and cause electrical malfunctions. Investigating with the right equipment is crucial when dealing with Raiju. Their presence can create chaos and fear, leading to a decline in sanity.
+            </p>
+
+            <!-- Informatie voor Obake -->
+            <p id="obake" class="ghost-info">
+                <strong>Obake:</strong> The Obake is a shapeshifting spirit that can transform into various objects within its environment. Identifying an Obake can be challenging, as it can mimic ordinary objects. Investigators must pay close attention to their surroundings and look for any anomalies or unusual behavior. An Obake's presence can be unsettling and lead to increased fear.
+            </p>
+
+            <!-- Informatie voor The Mimic -->
+            <p id="the-mimic" class="ghost-info">
+                <strong>The Mimic:</strong> The Mimic is a cunning and deceptive spirit that can mimic the voices of others. It is known for luring investigators with familiar voices and creating confusion. Identifying a Mimic requires careful listening and discerning genuine voices from imitations. The Mimic's ability to deceive can lead to fear and panic among investigators.
+            </p>
+
+            <!-- Informatie voor Moroi -->
+            <p id="moroi" class="ghost-info">
+                <strong>Moroi:</strong> The Moroi is a malevolent vampire spirit that can drain the life force of those nearby. It is known for its ability to weaken investigators and make them more vulnerable to attacks. Moroi's presence can cause a significant drop in sanity and health, making it a formidable adversary. Identifying and dealing with Moroi is crucial for survival.
+            </p>
+
+            <!-- Informatie voor Deogen -->
+            <p id="deogen" class="ghost-info">
+                <strong>Deogen:</strong> The Deogen is a protective and guardian spirit that watches over a specific location. It can become aggressive when individuals intrude on its territory. Identifying a Deogen requires understanding its protective nature and respecting its space. While it can initiate hunts, it's more likely to do so when investigators disrupt its territory.
+            </p>
+
+            <!-- Informatie voor Thaye -->
+            <p id="thaye" class="ghost-info">
+                <strong>Thaye:</strong> The Thaye is a mysterious and elusive ghost with the ability to manipulate time. It can distort time perception and create temporal anomalies. Identifying a Thaye can be challenging due to its time-altering abilities. Investigators should be prepared for shifts in time perception and unusual temporal events when dealing with Thaye.
+            </p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>For questions and inquiries, please contact us at vanderhoevenjaiden@gmail.com.</p>
+        </section>
+    </div>
+
+    <footer>
+        &copy; 2023 Phasmophobia Ghost Guide
+    </footer>
+</body>
+</html>
